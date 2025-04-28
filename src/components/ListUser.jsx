@@ -11,15 +11,18 @@ export function ListUser() {
   }, []);
 
   const getUsers = () => {
+
     axios.get('http://localhost:8005/api/').then((response) => {
       setUsers(response.data);
     });
   };
 
+
+
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:8005/api/?id=${id}`).then(() => {
+    if(window.confirm('Are you sure you want to delete this user?')){axios.delete(`http://localhost:8005/api/?id=${id}`).then(() => {
       getUsers();
-    });
+    });}
   };
 
   const handleEditClick = (user) => {
