@@ -1,8 +1,17 @@
-# React + Vite
+# Full-Stack App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This group project is to establishing a full-stack app using React, PHP and MySQL at Programming PHP course from REACT25K, Business College Helsinki.
 
-Currently, two official plugins are available:
+## Tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add an action column
+- Add a button to delete a user (this should also delete user from db)
+- Add a button to edit user details (this should also edit user in db)
+- Improve UI/UX in frontend (e.g. react/css/html etc)
+
+## Group members
+
+- Binyam Angamo (@Binyambc)
+- Daria Elina (@DarjaElina)
+- Saara Rikama (@SaaraRi)
+- Taejeong(TJ) Sohn (@TJsohn)
