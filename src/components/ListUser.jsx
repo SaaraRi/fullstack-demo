@@ -95,7 +95,7 @@ export function ListUser() {
                         </td>
                         <td>
                         <div className="buttons">
-                        <button onClick={() => handleSaveClick(user.id)}>Save</button>
+                        <button disabled={user.name === editFormData.name && user.email === editFormData.email && user.mobile === editFormData.mobile} onClick={() => handleSaveClick(user.id)}>Save</button>
                         <button onClick={handleCancelClick}>Cancel</button>
                         </div>
                         </td>
